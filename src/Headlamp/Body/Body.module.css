@@ -1,0 +1,23 @@
+.compactContainer {
+  border: 1px solid blue;
+  background-color: #aacbff;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.expandContainer {
+  border: 1px solid blue;
+  background-color: #aacbff;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,74 @@
+.container {
+  border: 1px solid red;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.closeButton {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: stretch;
+  background-color: rgba(205, 106, 106, 0.21);
+  border: 1px solid red;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.actionable {
+  display: block;
+  cursor: pointer;
+  justify-self: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.titleContainer {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: stretch;
+  align-self: stretch;
+  background-color: rgba(106, 205, 106, 0.21);
+  border: 1px solid rgb(106, 205, 106);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.iconList {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: stretch;
+  align-self: stretch;
+  background-color: rgba(106, 106, 205, 0.21);
+  border: 1px solid rgb(106, 106, 205);
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}

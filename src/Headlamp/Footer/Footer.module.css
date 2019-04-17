@@ -1,0 +1,10 @@
+.footer {
+  border: 1px solid green;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
